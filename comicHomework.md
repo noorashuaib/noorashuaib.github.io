@@ -1,9 +1,9 @@
 **Comic Strip Homework**
 **The Power of Sequencing**
 
-![](IMG_0098 (1).jpeg)
+![](start.jpg)
 
-![](IMG_0098 (1).jpg)
+![](IMG_0096.jpg)
 
 ![](IMG_0097.jpg)
 
@@ -14,6 +14,6 @@
 
 ![](IMG_0097.jpg)
 
-![](IMG_0098 (1).jpg)
+![](IMG_0096.jpg)
 
-![](IMG_0098 (1).jpeg)
+![](start.jpg)
