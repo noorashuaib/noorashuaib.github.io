@@ -1,4 +1,5 @@
 **Comic Strip Homework**
+
 **The Power of Sequencing**
 
 ![](start.jpg)
