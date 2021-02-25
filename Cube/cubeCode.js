@@ -1,17 +1,17 @@
 var cube = document.querySelector('.cube');
-var radioButtons = document.querySelector('.radioButtons');
+var radioGroup = document.querySelector('.radioButtons');
 var currentClass = '';
 
 function changeSide() {
-  var checkedRadio = radioButtons.querySelector(':checked');
+  var checkedRadio = radioGroup.querySelector(':checked');
   var showClass = 'show-' + checkedRadio.value;
-  if (currentClass) {
-    cube.classList.remove(currentClass);
+  if ( currentClass ) {
+    cube.classList.remove( currentClass );
   }
-  cube.classList.add(showClass);
+  cube.classList.add( showClass );
   currentClass = showClass;
 }
 
 changeSide();
 
-radioButtons.addEventListener('change', changeSide);
+radioGroup.addEventListener('change', changeSide);
