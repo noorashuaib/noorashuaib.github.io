@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=IBM+Plex+Serif:wght@700&family=Indie+Flower&family=Playfair+Display:wght@400;700&family=Rubik:wght@500&family=Shippori+Mincho:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=IBM+Plex+Serif:wght@700&family=Indie+Flower&family=Playfair+Display:wght@400;700&family=Rubik:wght@500&family=Shippori+Mincho:wght@700;800&display=swap');
+
+#container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #466368;
+}
+
+#grad1 {
+  height: 100vh;
+  background-image: linear-gradient(white , black);
+}
+
+.title {
+ font-family: 'Cinzel', sans-serif;
+ font-size: 10vh;
+}
+
+img {
+    padding-bottom: 10vh;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.good {
+  width: 70vw;
+  height: 20vh;
+  font-family: 'Rubik', sans-serif;
+  color: green;
+  font-size: 4vmin;
+}
+
+.bad {
+  width: 70vw;
+  height: 20vh;
+  font-family: 'Rye', sans-serif;
+  color: red;
+  font-size: 4vmin;
+  text-align: right;
+}
+
+.end {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 15vh;
+  padding-bottom: 15vh;
+  width: 45vw;
+  height: 20vh;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 4vmin;
+  text-align: center;
+}

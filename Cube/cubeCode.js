@@ -15,3 +15,12 @@ function changeSide() {
 changeSide();
 
 radioGroup.addEventListener('change', changeSide);
+
+function happyTime() {
+  if (currentClass != showClass) {
+  setTimeout(myFunction, 3000);
+  showClass = 'show-front';
+  }
+}
+
+  happyTime();
