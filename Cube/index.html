@@ -1,20 +1,33 @@
+<!--
+Yeji, Noora, Evan, and Tona
+Communications Lab - Spring 2021
+Professor Ang
+Assignment 2 - Comix Strip
+MUNGTOON
+** References found at the end of index.html**
+-->
 
-  <!DOCTYPE html>
-  <html>
-      <head>
+<!DOCTYPE html>
+<html>
+    <head>
            <title>MUNGTOON</title>
            <link rel="stylesheet" href="style.css"/>
            <link rel="preconnect" href="https://fonts.gstatic.com">
            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 
+<!-- Setting up the background music for the website with controls -->
            <audio controls autoplay loop>
                <source src = 'song.mp3' type="audio/mpeg">
            </audio>
-      </head>
-      <body>
+    </head>
+    <body>
+<!-- Title of the comic and website -->
           <div class=top>MUNGTOON</div>
+<!-- Creating the main div for the cube and radio buttons -->
           <div class="main">
+<!-- Creating the div containing all the faces of the cube to move the cube as a whole -->
             <div class="cube">
+<!-- Creating the divs for each face of the cube -->
               <div class="face  face-front"></div>
               <div class="face  face-back"></div>
               <div class="face  face-left"></div>
@@ -24,26 +37,36 @@
             </div>
           </div>
 
-
-          <br />
+<!-- Space above radio buttons -->
     <br />
     <br />
+    <br />
 
+<!-- Setting up radio buttons -->
     <p class="radioButtons">
+
+<!-- The radio buttons are given the input type radio here and each button is given a value
+to correspond with a particular face. The front face button is given an id in order
+to assist with the feature of returning to the happy panel of the comic after an interval
+(feature coded in javascript). By default, the front face radio button is checked.  -->
     <input type="radio" id="front-btn" name="rotate-face" value="front" checked />
-    <!-- <label for="front">Happy</label> -->
     <input type="radio" name="rotate-face" value="back" />
-    <!-- <label for="back">Sad</label> -->
     <input type="radio" name="rotate-face" value="left" />
-    <!-- <label for="left">Angry</label> -->
     <input type="radio" name="rotate-face" value="top" />
-    <!-- <label for="top">Excited</label> -->
     <input type="radio" name="rotate-face" value="bottom" />
-    <!-- <label for="bottom">Fear</label> -->
     <input type="radio" name="rotate-face" value="right" />
-    <!-- <label for="right">Bored</label> -->
     </p>
 
     <script src="script.js"></script>
         </body>
       </html>
+
+<!-- References
+For the radio buttons:
+https://www.w3schools.com/jsref/prop_radio_value.asp
+https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/
+https://www.w3schools.com/jsref/prop_radio_checked.asp
+For the cube:
+https://medium.com/@josephwong2004/how-to-do-rotating-cube-with-mouse-tracking-in-css-a2366b69fd73
+https://3dtransforms.desandro.com/cube
+https://paulrhayes.com/experiments/cube-3d/

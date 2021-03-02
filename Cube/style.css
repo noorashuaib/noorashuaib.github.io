@@ -6,6 +6,7 @@ body{
     margin:0;
 }
 
+/* Setting up the background and title of the website. */
 .top{
     background-image: url('stars.jpg');
     background-size: cover;
@@ -14,9 +15,10 @@ body{
     color: white;
     text-align: center;
     font-size: 60px;
-    /* font-family: 'Reggae One', cursive; */
     font-family: 'DotGothic16', sans-serif;
 }
+
+/* For the cube and radio buttons */
 .main {
   width: 400px;
   height: 400px;
@@ -25,17 +27,18 @@ body{
   perspective: 800px;
 }
 
+/* For the cube */
 .cube {
     width: 400px;
     height: 400px;
     top:50 px;
+    /* Rotating the cube as a whole, the time for the animation is set here. */
     transform-style: preserve-3d;
-    /* backface-visibility: hidden; */
     transform: translateZ(-100px);
     transition: transform 1s;
-    /* transform: rotateX(200deg) rotateY(-230deg) */
 }
 
+/* Rotates the cube depending on which face needs to face forward. */
 .cube.show-front  { transform: translateZ(-100px) rotateY(   0deg); }
 .cube.show-right  { transform: translateZ(-100px) rotateY( -90deg); }
 .cube.show-back   { transform: translateZ(-100px) rotateY(-180deg); }
@@ -43,14 +46,17 @@ body{
 .cube.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
 .cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
 
+/* Setting the size and position of the faces */
 .face {
     position: absolute;
     background-size: 400px 400px;
     width: 400px;
     height: 400px;
-    /* background-size: cover; */
 }
 
+/* Setting the panel for each face of the cube.
+Including the transformations for the individual faces when the cube rotates
+(The cube rotates as a whole given the overarching cube class)*/
 .face-front{
     background-image: url('yellow.png');
     transform: rotateY(0deg) translateZ(200px);
@@ -67,20 +73,21 @@ body{
 }
 
 .face-top{
-    background-image: url('orange.png');
+    background-image: url('orange.gif');
     transform: rotateX( 90deg) translateZ(200px);
 }
 
 .face-bottom{
-    background-image: url('gel.png');
+    background-image: url('grey.gif');
     transform: rotateX(-90deg) translateZ(200px);
 }
 
 .face-right{
-    background-image: url('green.png');
+    background-image: url('green.gif');
     transform: rotateY( 90deg) translateZ(200px);
 }
 
+/* Setting the position and colour of the radio buttons */
 .radioButtons {
     display: flex;
     justify-content: center;
