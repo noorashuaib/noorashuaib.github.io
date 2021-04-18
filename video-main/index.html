@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body id="background">
+  <div class="topnav">
+  <a class="active" id="home" href="index.html">The Pandemic Express</a>
+  <!--
+  <a href="#about">About</a>
+  -->
+</div>
+
+
+
+
+
+<!-- Landing Page -->
+
+<div class="mydivs">
+<div  id="flex-container">
+   <video controls  id="introvideo">
+    <source src="vid/Intro.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- Choose Your Character Page  -->
+
+<div class="flex-container2" id="flex-container2">
+    <video loop class="flex-vid2" id="nooravideo">
+      <source src="vid/nooravideo.mp4" type="video/mp4">
+    </video>
+    <video loop class="flex-vid2" id="yegorvideo">
+      <source src="vid/yegorvideo.mp4" type="video/mp4">
+    </video>
+    <video loop class="flex-vid2" id="alivideo">
+      <source src="vid/alivideo.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+
+
+<!-- Noora Story -->
+
+
+<div id="noorastory">
+  <video controls id="noorastoryvid">
+   <source src="vid/Ali.mp4" type="video/mp4">
+ </video>
+</div>
+
+
+<div class="btn" id="noorabtn">
+	<button  class= "next" id="nooranext" onclick="playAudio('vid/zoom.mp3')"></button>
+	</div>
+
+
+<div id="nooraconc">
+	<video controls id="nooraconcvid">
+	 <source src="vid/nooraConc.mp4" type="video/mp4">
+   </video>
+  </div>
+
+
+  <div class="rtn" id="noorartn">
+	<button class="return" id="noorareturn">Return</button>
+	</div>
+
+
+
+
+
+
+
+<!-- Yegor Story -->
+
+
+<div id="yegorstory">
+  <video controls id="yegorstoryvid">
+   <source src="vid/yegorStoryline.mp4" type="video/mp4">
+ </video>
+</div>
+
+
+<div class="btn" id="yegorbtn">
+	<button  class= "next" id="yegornext" onclick="playAudio('vid/zoom.mp3')"></button>
+	</div>
+
+<div id="yegorconc">
+	<video controls id="yegorconcvid">
+	 <source src="vid/yegorConc.mp4" type="video/mp4">
+   </video>
+  </div>
+
+  <div class="rtn" id="yegorrtn">
+	<button class="return" id="yegorreturn">Return</button>
+	</div>
+
+
+<!-- Ali Story -->
+
+
+<div id="alistory">
+  <video controls class="flex-vid" id="alistoryvid">
+   <source src="vid/intro.mp4" type="video/mp4">
+ </video>
+</div>
+
+
+
+<div class="btn" id="alibtn">
+	<button  class= "next" id="alinext" onclick="playAudio('vid/zoom.mp3')"></button>
+	</div>
+
+
+  <div id="aliconc">
+	<video controls id="aliconcvid">
+	 <source src="vid/aliConc.mp4" type="video/mp4">
+   </video>
+  </div>
+
+  <div class="rtn" id="alirtn">
+	<button class="return" id="alireturn">Return</button>
+	</div>
+
+
+
+
+
+</div>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
