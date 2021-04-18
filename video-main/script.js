@@ -121,7 +121,7 @@ nooraVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  background.style.backgroundImage = "url(img/back3.jpg)";
+  // background.style.backgroundImage = "url(img/back3.jpg)";
 })
 
 nooraStoryVid.addEventListener('ended', (event) => {
@@ -170,7 +170,7 @@ yegorVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  background.style.backgroundImage = "url(img/back3.jpg)";
+  background.style.backgroundImage = "url(img/blueSnow.png)";
   home.style.color = "white";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
@@ -224,7 +224,7 @@ aliVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  background.style.backgroundImage = "url(img/back3.png)";
+  // background.style.backgroundImage = "url(img/back3.png)";
 })
 
 
