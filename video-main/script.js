@@ -169,6 +169,7 @@ noorareturn.addEventListener('click', (event) => {
 
 yegorVideo.addEventListener('click', (event) => {
   console.log("yegorpage");
+  home.style.color = "#879190 ";
   flexContainer2.style.display = "none";
   yegorStory.style.display = "block";
   nooraVideo.currentTime = 0;
@@ -194,6 +195,7 @@ yegorStoryVid.addEventListener('ended', (event) => {
 
 yegornext.addEventListener('click', (event) => {
   console.log("yegorpageout");
+  background.style.backgroundImage = "url(img/zoom3.png)";
   yegorStory.style.display = "none";
   yegorbtn.style.display = "none";
   yegorConc.style.display = "block";
@@ -216,6 +218,7 @@ yegorreturn.addEventListener('click', (event) => {
   yegorConc.style.display = "none";
   yegorrtn.style.display = "none";
   flexContainer2.style.display = "flex";
+  background.style.backgroundImage = "url(img/zoom3.png)";
 })
 
 // Character: Ali
@@ -223,6 +226,7 @@ yegorreturn.addEventListener('click', (event) => {
 
 aliVideo.addEventListener('click', (event) => {
   console.log("nooraout");
+  home.style.color = "#879190 ";
   flexContainer2.style.display = "none";
   aliStory.style.display = "block";
   nooraVideo.currentTime = 0;
@@ -248,6 +252,7 @@ aliStoryVid.addEventListener('ended', (event) => {
 
 alinext.addEventListener('click', (event) => {
   console.log("nooraout");
+  background.style.backgroundImage = "url(img/zoom3.png)";
   aliStory.style.display = "none";
   alibtn.style.display = "none";
   aliConc.style.display = "block";
@@ -270,6 +275,7 @@ alireturn.addEventListener('click', (event) => {
   aliConc.style.display = "none";
   alirtn.style.display = "none";
   flexContainer2.style.display = "flex";
+  background.style.backgroundImage = "url(img/zoom3.png)";
 })
 
 
