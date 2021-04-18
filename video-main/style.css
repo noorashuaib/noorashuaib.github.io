@@ -8,7 +8,7 @@
 
   /* Style the links inside the navigation bar */
   .topnav a {
-    color: white;
+    color: #879190;
     text-align: center;
     padding: 40px 16px;
     text-decoration: none;
@@ -181,6 +181,6 @@ video{
 
   body {
     background-image: url(img/zoom3.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
   }
