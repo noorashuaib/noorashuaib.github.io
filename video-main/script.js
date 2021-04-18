@@ -117,6 +117,7 @@ home.addEventListener('mouseout', (event) => {
 })
 nooraVideo.addEventListener('click', (event) => {
   console.log("noorapage");
+  home.style.color = "#879190 ";
   flexContainer2.style.display = "none";
   nooraStory.style.display = "block";
   nooraVideo.currentTime = 0;
@@ -126,7 +127,6 @@ nooraVideo.addEventListener('click', (event) => {
   yegorVideo.load();
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
-  home.style.color = "#879190 ";
 })
 
 nooraStoryVid.addEventListener('ended', (event) => {
@@ -161,6 +161,7 @@ noorareturn.addEventListener('click', (event) => {
   nooraConc.style.display = "none";
   noorartn.style.display = "none";
   flexContainer2.style.display = "flex";
+  background.style.backgroundImage = "url(img/zoom3.png)";
 })
 
 // Character: Yegor
