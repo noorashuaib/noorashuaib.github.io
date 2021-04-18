@@ -109,7 +109,12 @@ aliVideo.addEventListener('mouseout', (event) => {
 
 
 // Character: Noora
-
+home.addEventListener('mouseover', (event) => {
+  home.style.color = "#2d8cff";
+})
+home.addEventListener('mouseout', (event) => {
+  home.style.color = "#879190";
+})
 nooraVideo.addEventListener('click', (event) => {
   console.log("noorapage");
   flexContainer2.style.display = "none";
@@ -122,12 +127,6 @@ nooraVideo.addEventListener('click', (event) => {
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
   home.style.color = "#879190 ";
-  home.addEventListener('mouseover', (event) => {
-    home.style.color = "#2d8cff";
-  })
-  home.addEventListener('mouseout', (event) => {
-    home.style.color = "#879190";
-  })
 })
 
 nooraStoryVid.addEventListener('ended', (event) => {
