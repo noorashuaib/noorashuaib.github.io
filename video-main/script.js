@@ -125,7 +125,7 @@ nooraVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  background.style.backgroundImage = "url(img/.png)";
+  background.style.backgroundImage = "url(img/doodles.png)";
   home.style.color = "#879190 ";
 })
 
@@ -146,7 +146,7 @@ nooranext.addEventListener('click', (event) => {
   nooraConcVid.load();
   yegorConcVid.load();
   aliConcVid.load();
-  background.style.backgroundImage = "url(img/doodles.png)";
+  background.style.backgroundImage = "url(img/zoom3.png)";
 })
 
 nooraConcVid.addEventListener('ended', (event) => {
