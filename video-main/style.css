@@ -34,11 +34,13 @@
 
 video{
     max-width: 100%;
+    width: 92%;
     height: auto;
 }
 
 
   .flex-container {
+    /* width: %; */
     /* display: flex;
     margin: auto;
     max-width: 300px;
