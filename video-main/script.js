@@ -121,12 +121,12 @@ nooraVideo.addEventListener('click', (event) => {
   yegorVideo.load();
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
-  home.style.color = "#BABACC ";
+  home.style.color = "#879190 ";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
   })
   home.addEventListener('mouseout', (event) => {
-    home.style.color = "#BABACC ";
+    home.style.color = "#879190";
   })
 })
 
@@ -177,12 +177,12 @@ yegorVideo.addEventListener('click', (event) => {
   yegorVideo.load();
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
-  home.style.color = "#BABACC ";
+  home.style.color = "#879190 ";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
   })
   home.addEventListener('mouseout', (event) => {
-    home.style.color = "#BABACC ";
+    home.style.color = "#879190";
   })
 })
 
@@ -231,12 +231,12 @@ aliVideo.addEventListener('click', (event) => {
   yegorVideo.load();
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
-  home.style.color = "#BABACC ";
+  home.style.color = "#879190 ";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
   })
   home.addEventListener('mouseout', (event) => {
-    home.style.color = "#BABACC ";
+    home.style.color = "#879190";
   })
 })
 
