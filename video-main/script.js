@@ -171,12 +171,12 @@ yegorVideo.addEventListener('click', (event) => {
   yegorVideo.load();
   aliVideo.load();
   background.style.backgroundImage = "url(img/doodles.png)";
-  home.style.color = "white";
+  home.style.color = "#BABACC ";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
   })
   home.addEventListener('mouseout', (event) => {
-    home.style.color = "white";
+    home.style.color = "#BABACC ";
   })
 })
 
