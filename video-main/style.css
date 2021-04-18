@@ -181,6 +181,6 @@ video{
 
   body {
     background-image: url(img/zoom3.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
   }
