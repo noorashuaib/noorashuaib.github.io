@@ -111,7 +111,6 @@ aliVideo.addEventListener('mouseout', (event) => {
 // Character: Noora
 
 nooraVideo.addEventListener('click', (event) => {
-  body.style.background
   console.log("noorapage");
   flexContainer2.style.display = "none";
   nooraStory.style.display = "block";
@@ -121,7 +120,14 @@ nooraVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  // background.style.backgroundImage = "url(img/back3.jpg)";
+  background.style.backgroundImage = "url(img/doodles.png)";
+  home.style.color = "#BABACC ";
+  home.addEventListener('mouseover', (event) => {
+    home.style.color = "#2d8cff";
+  })
+  home.addEventListener('mouseout', (event) => {
+    home.style.color = "#BABACC ";
+  })
 })
 
 nooraStoryVid.addEventListener('ended', (event) => {
@@ -224,7 +230,14 @@ aliVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  // background.style.backgroundImage = "url(img/back3.png)";
+  background.style.backgroundImage = "url(img/doodles.png)";
+  home.style.color = "#BABACC ";
+  home.addEventListener('mouseover', (event) => {
+    home.style.color = "#2d8cff";
+  })
+  home.addEventListener('mouseout', (event) => {
+    home.style.color = "#BABACC ";
+  })
 })
 
 
