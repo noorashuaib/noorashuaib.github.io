@@ -170,7 +170,7 @@ yegorVideo.addEventListener('click', (event) => {
   nooraVideo.load();
   yegorVideo.load();
   aliVideo.load();
-  background.style.backgroundImage = "url(img/blueSnow.png)";
+  background.style.backgroundImage = "url(img/back3.jpg)";
   home.style.color = "white";
   home.addEventListener('mouseover', (event) => {
     home.style.color = "#2d8cff";
