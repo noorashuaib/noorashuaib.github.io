@@ -18,6 +18,8 @@ body, html {
     filter: gray;
     -webkit-filter: grayscale(100%);
     transition: 1s;
+    max-width: 100%;
+    display: block;
 }
 
 #audioLogo img:hover {
@@ -35,6 +37,8 @@ body, html {
     filter: gray;
     -webkit-filter: grayscale(100%);
     transition: 1s;
+    max-width: 100%;
+    display: block;
 }
 
 #comicLogo img:hover {
@@ -52,6 +56,8 @@ body, html {
     filter: gray;
     -webkit-filter: grayscale(100%);
     transition: 1s;
+    max-width: 100%;
+    display: block;
 }
 
 #filmfestLogo img:hover {
@@ -69,6 +75,8 @@ body, html {
     filter: gray;
     -webkit-filter: grayscale(100%);
     transition: 1s;
+    max-width: 100%;
+    display: block;
 }
 
 #videoLogo img:hover {
