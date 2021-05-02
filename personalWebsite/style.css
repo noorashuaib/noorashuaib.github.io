@@ -176,8 +176,79 @@ body, html {
   grid-column-start: 2;
 }
 
-@media (max-width: 800px) {
+
+
+
+/*
+
+Rewriting the code for each element in smaller vp
+
+@media and (max-width: 800px) {
   .MainContainer {
-    flex-direction: column;
+    display: grid;
   }
-}
+
+  #audioLogo img {
+    padding: 2vw
+    width: 80vw;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+    display: block;
+  }
+
+  #audioLogo img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    width: 25vw;
+  }
+
+  #filmfestLogo img {
+    padding: 2vw
+    width: 80vw;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+    display: block;
+  }
+
+  #filmFestLogo img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    width: 25vw;
+  }
+
+  #comicLogo img {
+    padding: 2vw
+    width: 80vw;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+    display: block;
+  }
+
+  #comicLogo img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    width: 25vw;
+  }
+
+  #videoLogo img {
+    padding: 2vw
+    width: 80vw;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+    display: block;
+  }
+
+  #videoLogo img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    width: 25vw;
+  }
+} */
