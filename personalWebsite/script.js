@@ -1,7 +1,6 @@
-$(document).ready(function(){
-    $('#typewriteTextt').typewrite({
+
+  $('#typewriteTextt').typewrite({
     continuous: true,
-      // blinkingCursor: false,
         actions: [
             {type: 'Welcome to my website!'},
             {delay: 5000},
@@ -12,6 +11,9 @@ $(document).ready(function(){
             {type: 'Some projects are more direct'},
             {delay: 3000},
             {remove: {num: 29, type: 'stepped'}},
+            {type: 'Others are a bit abstract'},
+            {delay: 3000},
+            {remove: {num: 25, type: 'stepped'}},
             {type: 'All are projects that I am proud to present!'},
             {delay: 3000},
             {remove: {num: 44, type: 'stepped'}},
@@ -34,4 +36,3 @@ $(document).ready(function(){
             {remove: {num: 56, type: 'whole'}},
         ]
     });
-});

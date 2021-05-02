@@ -1,18 +1,15 @@
-* {
-  box-sizing: border-box;
-  /* border: 1px solid black; */
-}
-
 body, html {
   padding: 0;
-  margin-bottom: 3vmin;
   font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #audioLogo img {
     position: absolute;
     padding: 1vw;
-    right: -10px;
+    right: 0;
     bottom: 0;
     width: 20vw;
     filter: gray;
@@ -25,13 +22,13 @@ body, html {
 #audioLogo img:hover {
   -webkit-filter: grayscale(0%);
   filter: none;
-  width: 25vw;
+  width: 22vw;
 }
 
 #comicLogo img {
     position: absolute;
     padding: 1vw;
-    left: 10px;
+    left: 0;
     bottom: 0;
     width: 20vw;
     filter: gray;
@@ -44,13 +41,13 @@ body, html {
 #comicLogo img:hover {
   -webkit-filter: grayscale(0%);
   filter: none;
-  width: 25vw;
+  width: 22vw;
 }
 
 #filmfestLogo img {
     position: absolute;
     padding: 1vw;
-    left: 10px;
+    left: 0;
     top: 0;
     width: 20vw;
     filter: gray;
@@ -63,13 +60,13 @@ body, html {
 #filmfestLogo img:hover {
   -webkit-filter: grayscale(0%);
   filter: none;
-  width: 25vw;
+  width: 22vw;
 }
 
 #videoLogo img {
     position: absolute;
     padding: 1vw;
-    right: -10px;
+    right: 0;
     top: 0;
     width: 20vw;
     filter: gray;
@@ -82,7 +79,7 @@ body, html {
 #videoLogo img:hover {
   -webkit-filter: grayscale(0%);
   filter: none;
-  width: 25vw;
+  width: 22vw;
 }
 
 #MainContainer {
@@ -92,7 +89,7 @@ body, html {
   height: 100vh;
   align-items: center;
   justify-content: center;
-
+  margin: 0;
 }
 
 #search {
@@ -105,7 +102,6 @@ body, html {
   position: absolute;
   border-radius: .4em;
   background: #6b6b6b;
-  border-color: #6b6b6b;
 }
 
 .search:after {
@@ -122,53 +118,17 @@ body, html {
 }
 
 #typewriteTextt {
-  width: 65vw;
   border: 1px solid #6b6b6b;;
   color: white;
   padding: 2vmin 0vmin 2vmin 2vmin;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  border: none;
 }
 
-
-
-
-/* #searchiconcover {
-  width: 12.3vmin;
-  height: auto;
-  /* right: 0; } */
-
-
-
-
-/* #searchbar {
-  width: 60vw;
-  border: 1px solid #A4A4A4;
-  color: white;
-  padding: 1.5vmin 0vmin 1.5vmin 1.5vmin;
-  margin:-2vmin;
-} */
-
-/* .GridContainer {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(8,1fr);
-  grid-column-gap: 4vmin;
-  grid-row-gap: 2vmin;
-  margin: 0 3vmin 0 3vmin;
-  align-items: center;
-
-
-  cut this - padding: 0px;
-} */
-
-.MainContainer {
+#MainContainer {
   display: flex;
 }
-
-/* #searchiconcover:active {
-   transform: translateY(4px);
-} */
 
 .search {
   background-color: blue;
@@ -177,78 +137,35 @@ body, html {
 }
 
 
-
-
-/*
-
-Rewriting the code for each element in smaller vp
-
 @media and (max-width: 800px) {
-  .MainContainer {
-    display: grid;
-  }
 
   #audioLogo img {
-    padding: 2vw
-    width: 80vw;
-    filter: gray;
-    -webkit-filter: grayscale(100%);
-    transition: 1s;
-    max-width: 100%;
-    display: block;
-  }
-
-  #audioLogo img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    width: 25vw;
-  }
-
-  #filmfestLogo img {
-    padding: 2vw
-    width: 80vw;
-    filter: gray;
-    -webkit-filter: grayscale(100%);
-    transition: 1s;
-    max-width: 100%;
-    display: block;
-  }
-
-  #filmFestLogo img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    width: 25vw;
-  }
-
-  #comicLogo img {
-    padding: 2vw
-    width: 80vw;
-    filter: gray;
-    -webkit-filter: grayscale(100%);
-    transition: 1s;
-    max-width: 100%;
-    display: block;
-  }
-
-  #comicLogo img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    width: 25vw;
+  position: inherit;
   }
 
   #videoLogo img {
-    padding: 2vw
-    width: 80vw;
-    filter: gray;
-    -webkit-filter: grayscale(100%);
-    transition: 1s;
-    max-width: 100%;
-    display: block;
+  position: inherit;
   }
 
-  #videoLogo img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    width: 25vw;
+  #filmfestLogo img {
+  position: inherit;
   }
-} */
+
+  #comicLogo img {
+  position: inherit;
+  }
+
+  #search {
+    position: inherit;
+  }
+
+  .search:after {
+    position: inherit;
+  }
+
+  #MainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
