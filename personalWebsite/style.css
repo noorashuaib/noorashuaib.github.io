@@ -126,46 +126,11 @@ body, html {
   border: none;
 }
 
-#MainContainer {
-  display: flex;
-}
-
-.search {
-  background-color: blue;
-  grid-row-start: 1;
-  grid-column-start: 2;
-}
-
-
 @media and (max-width: 800px) {
-
-  #audioLogo img {
-  position: inherit;
-  }
-
-  #videoLogo img {
-  position: inherit;
-  }
-
-  #filmfestLogo img {
-  position: inherit;
-  }
-
-  #comicLogo img {
-  position: inherit;
-  }
-
-  #search {
-    position: inherit;
-  }
-
-  .search:after {
-    position: inherit;
-  }
-
-  #MainContainer {
-    display: flex;
-    flex-direction: column;
-  }
-
+#audioLogo img {
+          max-width: 320px;
+          max-height: auto;
+          min-width: 200px;
+          min-height: auto;
+      }
 }
