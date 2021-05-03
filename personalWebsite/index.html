@@ -6,45 +6,63 @@
       <link rel="stylesheet" href="style.css"/>
       <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Adding the audio explanations of each project -->
+      <audio loop preload="auto" id="filmSound"><source src = 'filmSound.mp3' type="audio/mpeg"></audio>
+      <audio loop preload="auto" id="audioSound"><source src = 'audioSound.mp3' type="audio/mpeg"></audio>
+      <audio loop preload="auto" id="comicSound"><source src = 'comicSound.mp3' type="audio/mpeg"></audio>
+      <audio loop preload="auto" id="videoSound"><source src = 'videoSound.mp3' type="audio/mpeg"></audio>
     </head>
 
     <body>
       <div id= "MainContainer">
-
-        <div id="search" class="search triangle">
+        <!-- Creating the speech bubble div -->
+      <div id="search" class="search triangle">
+        <!-- Creating the typewriter textbox (not visible on website) -->
       <div id="typewriteTextt"></div>
     </div>
 
+<!-- Adding the logos for each project and linking them to the project -->
     <div id="audioLogo">
-    <a href="https://lucychoi1215.github.io/soundproject/soundproject.html" target="blank">
-    <img class="audioLogo" src="sound.png" alt="A logo for the sound project">
+    <a href="https://lucychoi1215.github.io/soundproject/soundproject.html">
+    <img id="audioImage" class="audioLogo" src="sound.png" alt="A logo for the sound project">
     </a>
     </div>
 
     <div id="comicLogo">
-    <a href="https://tonacv.github.io/cube/" target="blank">
-    <img class="comicLogo" src="comic.png" alt="A logo for the comic project">
+    <a href="https://tonacv.github.io/cube/">
+    <img id="comicImage" class="comicLogo" src="comic.png" alt="A logo for the comic project">
     </a>
     </div>
 
     <div id="filmfestLogo">
-    <a href="https://noorashuaib.github.io/" target="blank">
-    <img class="filmfestLogo" src="filmfest.png" alt="A logo for the 30MFF project">
+    <a href="https://noorashuaib.github.io/">
+    <img id="filmfestImage" class="filmfestLogo" src="filmfest.png" alt="A logo for the 30MFF project">
     </a>
     </div>
 
     <div id="videoLogo">
-    <a href="https://eabahrami.github.io/video" target="blank">
-    <img class="videoLogo" src="video.png" alt="A logo for the video project">
+    <a href="https://eabahrami.github.io/video">
+    <img id="videoImage" class="videoLogo" src="video.png" alt="A logo for the video project">
     </a>
     </div>
 
-
-
+<!-- I didn't want to lose out on the hover audio play feature
+so I made a second page for browsers that don't support it -->
+<div class="audioExplanation">Use a browser that allows audio autoplay (ex. Safari Version 14.1) for the audio experience! Otherwise, <a href="audioOption.html">click here!</a></div>
     </div>
 
 
+
+<!-- scripts -->
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
          <script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
          <script src="script.js"></script>
     </body>
+
+<!-- REFERENCES -->
+<!--
+https://codeconvey.com/css-image-grid-with-captions/
+https://github.com/mrvautin/typewrite
+https://projects.verou.me/bubbly/
+ -->
+<!-- Note: Thank you to Lucy, who helped me figure out the typewriter effect -->
