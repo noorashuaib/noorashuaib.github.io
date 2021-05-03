@@ -6,17 +6,31 @@ body, html {
   width: 100%;
 }
 
-/* Adding the note about needing a browser compatible with autoplay */
-.audioExplanation {
+/* Adding the documentation
+and the note about needing a browser compatible with autoplay */
+.documentation {
   position: absolute;
   color: black;
   font-family: 'Raleway', sans-serif;
   bottom: 5%;
   left: 25%;
-  z-index: 10;
   text-align: center;
   width: 50vw;
 }
+
+/* styling the hyperlinks */
+a {
+ text-decoration: none;
+ color: #9c261e;
+ font-weight: 800;
+}
+
+a:hover {
+ text-decoration: none;
+ color: #153f94;
+ font-weight: 800;
+}
+
 
 /* I tried using the same class for all the images to shorten the code, but it
 kept messing up the positioning, so I had to write the code for each image */
